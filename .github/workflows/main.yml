@@ -24,7 +24,7 @@ jobs:
 
     runs-on: windows-latest
 
-    steps:
+     steps:
 
     - uses: actions/checkout@main
 
@@ -36,7 +36,7 @@ jobs:
 
       #Change the app-name to match what was provided to you in the publish settings file, this is in a naming convention of 'COURSENAME-STUDENTUID'
 
-        app-name: '"WDDE365-UMGC-rkepford'
+        app-name: 'WDDE365-UMGC-rkepford\$WDDE365-UMGC-rkepford'
 
         slot-name: 'production'
 
