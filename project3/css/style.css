@@ -1,0 +1,148 @@
+/* style.css - shared by index.html, music.html and news.html */
+
+body {
+  background-color: #121212;
+  color: #f2f2f2;
+  font-family: Verdana, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ID selector: wrapper keeps content away from the browser edges */
+#wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #1f1f1f;
+  border-bottom: 4px solid #c0392b;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #e74c3c;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 6px;
+  margin: 0;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  color: #e74c3c;
+  font-size: 20px;
+}
+
+p {
+  color: #f2f2f2;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 12px 0;
+}
+
+/* Navigation (centered) */
+nav {
+  text-align: center;
+  margin-top: 15px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 18px;
+  margin: 0 4px;
+  border: 1px solid #c0392b;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #c0392b;
+}
+
+a {
+  color: #ff8a7a;
+}
+
+/* Second ID selector for source notes */
+#source-note {
+  color: #bbbbbb;
+  font-size: 13px;
+  font-style: italic;
+  border-top: 1px solid #444444;
+  padding-top: 10px;
+}
+
+/* Class selectors */
+.tagline {
+  color: #cccccc;
+  font-style: italic;
+  text-align: center;
+  margin: 8px 0 0 0;
+}
+
+.album,
+.news-item {
+  background-color: #1f1f1f;
+  border-left: 4px solid #c0392b;
+  padding: 15px 20px;
+  margin-bottom: 25px;
+}
+
+.date {
+  color: #999999;
+  font-size: 13px;
+  margin: 0;
+}
+
+/* Floated images with padding so text does not touch them */
+.img-left {
+  float: left;
+  margin: 0 20px 10px 0;
+  padding: 5px;
+  background-color: #2a2a2a;
+  max-width: 250px;
+}
+
+.img-left img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+figcaption {
+  color: #bbbbbb;
+  font-size: 12px;
+  font-style: italic;
+  padding-top: 5px;
+}
+
+/* Clear the floats */
+.clear {
+  clear: both;
+}
+
+footer {
+  background-color: #1f1f1f;
+  border-top: 4px solid #c0392b;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+footer p {
+  font-size: 13px;
+  color: #bbbbbb;
+  margin: 0;
+}
